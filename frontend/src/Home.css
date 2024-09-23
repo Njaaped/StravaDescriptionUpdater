@@ -1,0 +1,93 @@
+.Home {
+    background-color: #ffbf5e;
+    color: #004d40;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.get-started-button, .login-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #004d40;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.get-started-button:hover, .login-button:hover {
+    background-color: #00332a;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.login-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.login-form input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ffbf5e;
+}
+
+.credentials-display {
+    text-align: center;
+    padding: 20px;
+    color: #ffbf5e;
+}
+
+.successmessage {
+    color: #39c620;
+    font-size: 40px;
+}
+
+.failedmessage {
+    color: #ff0000;
+    font-size: 40px;
+}
+
+.credentials-display h1 {
+    color: #01473b; /* Deep teal color */
+    font-size: 60px;
+}
+
+.credentials-display p {
+    color: #9c9a9a; /* Lighter text color */
+    font-size: 40px;
+}
+
+.user-image {
+    width: 100%; /* Full width of its container */
+    max-width: 400px; /* Limit the image size */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 20px; /* Space above the image */
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+
+.failedDiv {
+    color: 'red';
+    text-align: center;
+    margin-top: 20px;
+}
+
+.failedButton {
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+}

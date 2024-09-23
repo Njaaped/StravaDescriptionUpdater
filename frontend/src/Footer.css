@@ -1,0 +1,11 @@
+.App-footer {
+    background-color: #333; /* Dark background for the footer */
+    color: white; /* Light text color for contrast */
+    text-align: center;
+    padding: 10px 0; /* Padding on top and bottom */
+    position: fixed; /* Fixed at the bottom */
+    left: 0;
+    bottom: 0;
+    width: 100%; /* Full width */
+    z-index: 1000; /* High z-index to stay on top */
+  }

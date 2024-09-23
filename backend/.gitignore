@@ -1,0 +1,10 @@
+# Ignore the database file
+userdb.db
+
+# Ignore environment files
+.env
+
+testing/
+
+__pycache__/
+
